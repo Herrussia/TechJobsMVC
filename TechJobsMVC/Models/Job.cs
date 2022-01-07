@@ -64,7 +64,7 @@ namespace TechJobsMVC.Models
         public override bool Equals(object obj)
         {
             return obj is Job job &&
-                   Id == job.Id;
+                Id == job.Id;
         }
 
         public override int GetHashCode()
